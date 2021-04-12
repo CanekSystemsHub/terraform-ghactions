@@ -25,8 +25,8 @@ jobs:
       ARM_TENANT_ID: 'db4c5d58-840a-4455-a220-18eed29c63ff'
       ARM_CLIENT_ID: '159ca3e7-e86d-434f-b368-7083cb5adead'
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
-             # Above is referencing the secrets store in Github to not expose the secret itself
       AZURE_STORAGE: 'terraformcanekdemo1'
+      # Above is referencing the secrets store in Github to not expose the secret itself
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
